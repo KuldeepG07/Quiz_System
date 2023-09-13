@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instructions</title>
+    <link rel="shortcut icon" href="/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="instructions.css">
+</head>
+
+<body>
+    <div class="instruct">
+        <h2>: Instructions :</h2>
+    </div>
+
+    <div class="ins">
+        <p class="notice">&#128073 Some Instructions you need to know :-</p><br>
+        <ul class="list">
+            <li>This is not a timed test. You can take time as much as you need</li>
+            <li>There will be 5 Questions in this Test.</li>
+            <li>It has Negative marking system. For each correct answer, you'll get 4 marks and for each wrong answer,
+                you'll get -1.</li>
+            <li>Once you leave the question, you're not able to be back on that question</li>
+        </ul>
+    </div>
+
+    <div class="addddetail">
+        <div class="fill">
+            <h2>Fill the Form</h2>
+        </div>
+        <form class="data" onsubmit="Submitdata(); return true;">
+            <div class="onefield">
+                <label for="name">First Name</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div class="onefield">
+                <label for="mob">Mobile No</label>
+                <input type="tel" name="mob" id="mob" oninput="checkmob(this)" required>
+            </div>
+            <div class="onefield">
+                <label for="dob">DOB</label>
+                <input type="date" name="dob" id="dob" required>
+            </div>
+            <div class="onefield">
+                <button class="adddata" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    <div class="btntonext">
+        <button><a href="quiz.html">LET'S START</a></button>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

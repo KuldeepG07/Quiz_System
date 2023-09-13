@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Starting Phase */
+
+.heading {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(to bottom right, rgb(21, 21, 20), rgb(20, 21, 21), rgb(33, 229, 251));
+    /* background-color: rgb(3, 57, 58); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0px auto;
+    color: white;
+    border: 2px solid white;
+}
+
+.heading .open {
+    padding: 15px;
+}
+
+.heading .image {
+    padding: 15px;
+}
+
+.heading #start {
+    font-size: 50px;
+    padding: 15px;
+}
+
+.heading #uniq {
+    font-size: 25px;
+    padding: 25px;
+}
+
+.heading .image img {
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+/* Main Content */
+.para {
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(26, 30, 30));
+    /* background-color: rgb(26, 30, 30); */
+    color: white;
+}
+
+.para .startline {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.main {
+    background-color: black;
+    color: white;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main .expque {
+    font-size: 30px;
+    width: 400px;
+}
+
+.main .expque h3 {
+    padding: 5px;
+}
+
+.main .exptxt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main .exptxt img,
+h3 {
+    margin: 15px;
+}
+
+.main img {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(24, 197, 213, 0.2), 0 6px 20px 0 rgba(6, 127, 160, 0.19);
+}
+
+.why {
+    background-image: linear-gradient(to right, rgb(26, 30, 30), rgb(0, 0, 0));
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.why .whyque {
+    font-size: 30px;
+    width: 400px;
+}
+
+.why .whytxt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.why .whytxt h3 {
+    margin: 10px;
+}
+
+.why .whytxt {
+    padding: 15px;
+    font-size: 15px;
+}
+
+.why img {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(24, 197, 213, 0.2), 0 6px 20px 0 rgba(6, 127, 160, 0.19);
+}
+
+/* Button */
+.button {
+    margin: 0px auto;
+    text-align: center;
+    padding: 5px;
+    width: 175px;
+}
+
+#btntostart {
+    font-size: 17px;
+    padding: 10px;
+    background-color: #27bfee;
+    margin: 0px auto;
+    transition: 0.5s all;
+    border-radius: 15px;
+}
+
+#btntostart a {
+    text-decoration: none;
+    color: black;
+}
+
+#btntostart:hover a {
+    color: #51f3eb;
+    background-color: black;
+}
+
+#btntostart:hover {
+    background-color: black;
+}
